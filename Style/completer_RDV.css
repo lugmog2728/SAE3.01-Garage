@@ -1,0 +1,197 @@
+body{
+    font-size: 100%;
+}
+
+section{
+    padding: 10px;
+    background-color: rgba(217, 217, 217, 0.4);
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+
+#info_vehicule, #info_RDV{
+    width: 49%; 
+    background-color: #198754; 
+    padding:5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    justify-content: normal;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#info_vehicule{
+    margin-right: 10px;
+}
+
+
+.inner_infoRDV{
+    justify-content: normal;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#info_interv, #info_article, #info_operateur{
+    width: 30%;
+    background-color: #198754;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.info_block{
+    display: flex;
+}
+
+#zone_descript{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #198754;
+    padding: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+textarea{
+    padding: 10px;
+    width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    background-color: #ddd4d4;
+
+}
+
+#description-area {
+    background-color: rgba(206, 236, 189, 1);
+}
+
+#block_date{
+    display: inline;
+    padding-bottom: 6px;
+}
+
+#etat_block{
+    display: flex;
+}
+
+#etat_block>p{
+    margin-bottom: 0rem;
+    margin-right: 10px;
+}
+
+
+.titre_block{
+    color: white; 
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.titre_block:first-child{
+    margin-bottom: 5px;
+}
+
+#block_descript_interv, #block_descript_article, #block_liste_operateur{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#button input{
+    border-radius: 10px;
+    width: 15%;
+    color: white;
+}
+
+#ajout_opperation, #ajout_article, #ajout_operateur{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    border-radius: 7px;
+    margin: 5px;
+    height: 20px;
+}
+
+.devis{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.devis>p{
+    margin-bottom: 0px;
+}
+
+#input_devis{
+    width: min-content;
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+.onceArticle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+.libelleArt{
+    width: 80%;
+}
+
+.qte{
+    width: 20%;
+    margin-left: 3px;
+}
+
+#imat{
+    margin-bottom: 5px;
+}
+
+#valide{
+    margin-right: 10px;
+    background-color: #198754;
+}
+
+#valide:hover {
+    background-color: white;
+    color: #198754;
+    border: solid 2px #198754;
+}

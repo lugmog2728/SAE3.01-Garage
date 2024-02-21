@@ -1,0 +1,168 @@
+header {
+    background-color: rgba(206, 236, 189, 1);
+}
+
+.navbar {
+    margin-bottom: 25px;
+    padding: 20px 0;
+}
+
+#nav-content {
+    margin: auto;
+    gap: 0 30px;
+    display: flex;
+    text-align: center;
+    padding: 0 40px 0 0;
+}
+
+.nav-left {
+    float: right;
+  }
+  
+.nav-logo {
+text-align: center;
+}
+
+.nav-right {
+left: 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    flex: 1 0 auto; 
+}
+
+.h3-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.border-bottom {
+    width: 50%;
+    position: relative;
+    text-align: center!important;
+    margin-left: 25%;
+}
+
+a {
+    margin: auto;
+}
+
+.table {
+    border-color: #adb5bd;
+}
+
+.nowrapdata {
+    width: 1px;
+    white-space: nowrap;
+}
+
+#loginbox {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 750px;
+    justify-content: center;
+}
+
+#log { 
+    display: block;
+}
+
+#payment {
+    left: 900px;
+    position: relative;
+    display: flex;
+    width: 400px;
+}
+
+.payment-content {
+    gap: 100px;
+}
+
+#fourn {
+    margin-left: 20px;
+}
+
+#dest {
+    position: relative; 
+    left: 40%!important;
+}
+
+#gestion-btn-holder {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gestionbtn {
+    border: solid green 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#divdetails {
+    left: 500px;
+}
+
+.flex-fact {
+    display: flex!important;
+    flex-direction: row;
+}
+
+.gestion-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+}
+
+.center {
+    text-align: center;
+}
+
+#add-data {
+    text-align: center;
+    margin-left: 49.5%;
+    margin-bottom: 20px;
+}
+
+/* Hover */
+.btn-success:hover, .btn-success:active  {
+    color: green!important;
+    background-color: white!important;
+    border: solid green 1px;
+}
+
+.gestionbtn:hover, .gestionbtn:active {
+    color: green;
+    background-color: white;
+    border: solid green 2px;
+}
+
+#reglement {
+    background-color: #198754!important;
+    color: white;
+}
+
+#reglement:hover, #reglement:active {
+    background-color: white!important;
+    color: #198754;
+}
+
+/* Inputs */
+
+#num_dde_input {
+    width: 10%;
+}

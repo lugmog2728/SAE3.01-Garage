@@ -1,0 +1,85 @@
+
+/* Chrome */
+@supports (-webkit-appearance:none) {
+    header, footer, #payment-btn, #selectFacture, #reglement  {
+        display: none;
+    }
+    
+    * {
+        transition: none !important;
+        font-size: 20px;
+    }
+    
+    #payment {
+        left: 500px;
+        position: relative;
+    }
+
+    #dest {
+        position: absolute;
+        left:700px;
+    }
+
+    .flex-fact {
+        display: flex!important;
+        flex-direction: row;
+    }
+
+    #fourn {
+        margin-left: 20px;
+    }
+    
+    #dest {
+        position: relative; 
+        left: 40%!important;
+    }
+
+    #payment {
+        width: 400px;
+    }
+}
+
+/* Firefox */
+@supports (-moz-appearance:meterbar) {
+    header, footer, #payment-btn, #selectFacture, #reglement  {
+        display: none;
+    }
+    
+    * {
+        transition: none !important;
+        font-size: 28px;
+    }
+    
+    #payment {
+        left: 900px;
+        position: relative;
+    }
+
+    #dest {
+        position: absolute;
+        left:1000px;
+    }
+    
+    .flex-fact {
+        display: flex!important;
+        flex-direction: row;
+    }
+    
+    #fourn {
+        margin-left: 20px;
+    }
+    
+    #dest {
+        position: relative; 
+        left: 25%!important;
+    }
+
+    #print-decal {
+        transform: translateX(-100px);
+    }
+
+    #payment {
+        width: 600px;
+    }
+
+}
